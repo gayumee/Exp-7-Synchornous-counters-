@@ -46,25 +46,49 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
+/* 1. Create a New Project: Open Quartus and create a new project by selecting "File" > "New
+Project Wizard." Follow the wizard's instructions to set up your project, including specifying the
+project name, location, and target device (FPGA). 2. Create a New Design File:
+Once the project is created, right-click on the project name in the Project Navigator and select "Add
+New File." Choose "Verilog HDL File" or "VHDL File," depending on your chosen hardware
+description language. 3. Write the Combinational Logic Code:
+Open the newly created Verilog or VHDL file and write the code for your combinational logic. 4.
+Compile the Project: To compile the project, click on "Processing" > "Start Compilation" in the
+menu. Quartus will analyze your code, synthesize it into a netlist, and perform optimizations based
+on your target FPGA device. 5. Analyze and Fix Errors:
+If there are any errors or warnings during the compilation process, Quartus will display them in the
+Messages window. Review and fix any issues in your code if necessary. View the RTL diagram. 6.
+Verification: Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF".
+Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on
+Node Finder > Click On "List" > Select All. Give the Input Combinations according to the Truth Table
+and then simulate the Output Waveform. */
+
 
 
 
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: T. Gayathri 
+RegisterNumber:  212223100007
 */
+## UP counter
+![UPCOUNTER CODE](https://github.com/gayumee/Exp-7-Synchornous-counters-/assets/149037327/1f1e9275-7685-4b49-b7e8-aa157d6c7690)
 
-
-
-
+## DOWN counter
+![DOWNCOUNTER CODE](https://github.com/gayumee/Exp-7-Synchornous-counters-/assets/149037327/caee5e8a-1d5f-4a7d-8e9b-d0a447e7a4e9)
 
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
+## UP counter 
 
+![DOWNCOUNTER RTL](https://github.com/gayumee/Exp-7-Synchornous-counters-/assets/149037327/ac89fc25-720c-42b0-ae58-35c587c85c26)
+
+## DOWN counter 
+
+
+![DOWNCOUNTER RTL](https://github.com/gayumee/Exp-7-Synchornous-counters-/assets/149037327/b7e7f297-beec-432c-b917-7c04992966fa)
 
 
 
@@ -74,15 +98,28 @@ RegisterNumber:
 
 ### TIMING DIGRAMS FOR COUNTER  
 
+## UP counter 
 
+![UP TIME](https://github.com/gayumee/Exp-7-Synchornous-counters-/assets/149037327/3c9375e8-9425-4d5a-804d-d5e045a0af38)
+
+## DOWN counter 
+
+
+![UP TIME](https://github.com/gayumee/Exp-7-Synchornous-counters-/assets/149037327/99a0854c-b5dc-4377-911f-eb5d46a33b2c)
 
 
 
 ### TRUTH TABLE 
 
+## UP counter 
+![UP TT TABLE](https://github.com/gayumee/Exp-7-Synchornous-counters-/assets/149037327/e54eaba5-bdf1-47ea-9611-c346f75a4e9d)
 
+
+## DOWN counter 
+![UP TT TABLE](https://github.com/gayumee/Exp-7-Synchornous-counters-/assets/149037327/b53d36cd-34f8-4595-b3b8-a51d582ab22a)
 
 
 
 
 ### RESULTS 
+The implementation of  4 bit up and down counters and validating functionality is done.
